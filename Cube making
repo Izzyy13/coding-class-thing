@@ -1,0 +1,8 @@
+player.onChat("build", function () {
+player.say("Start placing stone");
+
+for (let z =1; z <6; z++){
+    blocks.place(BEDROCK, pos(0, 0, z));
+}
+player.say("Done placing stone");
+})
